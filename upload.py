@@ -2,6 +2,8 @@ import getpass
 import pg8000
 import csv
 
+# MUST BE RUN ON LINUX 
+
 # Used from Project 8
 login = input('login: ')
 secret = getpass.getpass('password: ')
